@@ -13,7 +13,7 @@ class LogoImg:
 
     def get(self):
         try:
-            resp = requests.get((self.host + self.service), auth=(HTTPBasicAuth('xxx', '123')))
+            resp = requests.get((self.host + self.service), auth=(HTTPBasicAuth('xxx', 'xxx')))
             if resp.status_code == 200:
                 data = resp.json()
                 self.imagembase64 = data['Imagem']
