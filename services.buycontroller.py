@@ -5,7 +5,7 @@ import models.Operation
 import connection.APIConnection as APIConnection
 from iqoptionapi.expiration import *
 
-@A
+
 def C(operation, valuecurrenc):
     O = operation
     status = False
