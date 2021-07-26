@@ -1,7 +1,7 @@
 import threading
 from datetime import datetime, date
 from models.OperationCalc import *
-HOST_NAME = 'http://74.63.254.230:8087/'
+HOST_NAME = 'xxxxxxxxxxxxxxxxxx'
 
 class roboController(object):
     _roboController__instance = None
