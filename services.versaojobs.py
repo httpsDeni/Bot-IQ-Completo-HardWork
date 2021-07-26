@@ -10,7 +10,7 @@ def getVersaoAtual():
     versao = ''
     try:
         dados = {'tipo': '4'}
-        resp = requests.get((host + service), params=dados, auth=(HTTPBasicAuth('jobs', '123')))
+        resp = requests.get((host + service), params=dados, auth=(HTTPBasicAuth('xx', 'xxxx')))
         if resp.status_code != 200:
             mensagem = Idioma.traducao('Erro... Não houve comunição com servidor.')
         else:
