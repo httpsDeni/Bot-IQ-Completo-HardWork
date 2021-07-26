@@ -11,7 +11,7 @@ def getTelegran1():
     service = 'SE1/gettelegran1'
     token = ''
     try:
-        resp = requests.get((host + service), auth=(HTTPBasicAuth('xxx', '123')))
+        resp = requests.get((host + service), auth=(HTTPBasicAuth('xxx', 'xxx')))
         if resp.status_code == 200:
             resp = Cripto64(resp.content, True)
             data = json.loads(resp)
